@@ -17,7 +17,7 @@ const regularUser = {
     }
 }
 
-console.log(regularUser.fullname.userfullname.firstname);
+// console.log(regularUser.fullname.userfullname.firstname);
 // console.log(regularUser.fullname?.userfullname.firstname);
 
 
@@ -36,7 +36,7 @@ const obj2 = {
 // console.log(obj3);
 
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [
@@ -55,11 +55,32 @@ const users = [
 ]
 
 users[1].email
-console.log(Itinera);
+// console.log(Itinera);
 
-console.log(Object.keys(Itinera)); //imp
-console.log(Object.values(Itinera)); //imp
-console.log(Object.entries(Itinera)); //imp
+// console.log(Object.keys(Itinera)); //imp
+// console.log(Object.values(Itinera)); //imp
+// console.log(Object.entries(Itinera)); //imp
 
-console.log(Itinera.hasOwnProperty("isLoggedIn"));
+// console.log(Itinera.hasOwnProperty("isLoggedIn"));
 
+const course = {
+    courseName : "JS",
+    price : "999",
+    courseInstructor : "hitesh"
+}
+
+const {courseInstructor : hello} = course
+console.log(courseInstructor);
+console.log(hello); // destructoring
+
+// {
+//     "name" : "nisarg",
+//     "coursename ": "js",
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
